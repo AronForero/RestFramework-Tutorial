@@ -13,6 +13,6 @@ router.register(r'users', views.UserViewSet)
 #Last Step:
 #The API URLs are now determined automatically by the router
 ###########- include the router into the urlpattern list
-urlpattern = [
+urlpatterns = [
     path('', include(router.urls)),
 ]
